@@ -20,9 +20,9 @@ OPTION(BUILD_TESTS "Build tests" ON)
 OPTION(BUILD_PYTHON "Build Python extension" OFF)
 
 IF(MSVC)
-  set(BUILD_SHARED_LIBS OFF)
+  set(BUILD_SHARED_LIBS ON)
 ELSE()
-  OPTION(BUILD_SHARED_LIBS "Build shared libraries" OFF)
+  OPTION(BUILD_SHARED_LIBS "Build shared libraries" ON)
   OPTION(BUILD_POSITION_INDEPENDENT_CODE "Build position independent code (-fPIC)" ON)
 ENDIF()
 

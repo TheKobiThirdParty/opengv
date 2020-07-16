@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>opengv</name>
+  <version>1.0.0</version>
+  <description>Opengv</description>
+
+  <maintainer email="denis@thekobi.com">Denis Cavalli</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>Eigen3</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
